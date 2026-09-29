@@ -1,0 +1,40 @@
+========================================
+  CLOCK TOWER RESTAURANT - REDISEÑO UI
+========================================
+
+Se aplicó un tema visual completo inspirado en el logo:
+
+COLORES:
+- Fondo: Negro profundo (#0C0C0E)
+- Acentos: Dorado del logo (#F5C518)
+- Texto: Blanco / gris claro
+- Botones principales: dorados con efecto hover
+- Botones secundarios: borde dorado
+
+CAMBIOS REALIZADOS:
+1. Nueva clase TemaClockTower.java  →  centraliza todo el estilo
+2. LoginFrame  →  logo grande + campos modernos + botón dorado
+3. MenuPrincipal →  logo + botones estilizados + rol visible
+4. MesasFrame  →  tabla oscura + botones + botón Volver
+5. PedidoFrame, ProductosAdminFrame, UsuariosFrame, ProductosFrame
+   →  se aplica el mismo tema oscuro automáticamente
+
+LOGO:
+El archivo logo_clock_tower.jpg está en:
+  src/cliente/logo_clock_tower.jpg
+
+Para que se vea al ejecutar:
+- Abre el proyecto en NetBeans
+- Clean and Build
+- El logo se buscará automáticamente en varias rutas
+
+CÓMO PROBAR:
+1. Inicia el Servidor (clase servidor.Servidor)
+2. Ejecuta LoginFrame
+3. Deberías ver el logo de Clock Tower centrado en la pantalla de login
+
+Si el logo no aparece, verifica que el archivo
+logo_clock_tower.jpg esté junto a las clases compiladas
+o en la raíz del proyecto.
+
+========================================
